@@ -1,0 +1,60 @@
+.image1{
+
+    height: 300px;
+    width: auto;
+}
+
+
+.button{
+    height: 40px;
+    width: 120px;
+    margin-right: 21px;
+    
+    margin-left: 1300px;
+}
+
+.button, .button2{
+    color: black;
+}
+
+.header{
+    background-color:#A99DB7;
+    height: 50px;
+    display: flex;
+}
+
+
+
+.ingredients{
+    background-color: #A99DB7;
+}
+
+.image2{
+    height: 300px;
+    width: auto;
+}
+.image3{
+    height: 200px;
+    margin-top: 40px;
+}
+
+.main{
+    display: grid;
+    place-items: center;
+    align-items: center;
+}
+
+
+.title{
+    font-size: 90px;
+}
+
+.recipe{
+    
+    font-size: 50px;
+    flex
+}
+
+.imageFridge{
+    height: 250px;
+}
