@@ -2,12 +2,16 @@
 
     height: 300px;
     width: auto;
+
 }
 
 
 .button{
     font-size: 25px;
- 
+    margin-right: 10px;
+}
+.button2{
+    margin-left: 10px;
 }
 
 .button, .button2{
@@ -35,15 +39,19 @@
 .image3{
     height: 200px;
     margin-top: 40px;
+
 }
 
-
-
+.image4{
+height: 300px;
+margin-top: 40px;;
+}
 
 .title{
     font-size: 90px;
     padding: 30px;
     margin-bottom: 60px;
+    ;
 }
 
 .recipe{
@@ -54,6 +62,7 @@
 
 .imageFridge{
     height: 250px;
+    
 }
 
 a{
@@ -61,8 +70,11 @@ a{
 }
 
 .box{
+ 
+    align-items: center;
     justify-self: center;
     margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 
@@ -77,7 +89,7 @@ a{
 .row{
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin-top: 80px;
 }
 
 body{
@@ -102,4 +114,14 @@ footer{
     justify-content: center;
 }
 
+p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+     
+}
 
+main{
+    margin-bottom: 80px;
+}
