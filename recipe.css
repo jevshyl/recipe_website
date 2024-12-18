@@ -6,11 +6,8 @@
 
 
 .button{
-    height: 40px;
-    width: 120px;
-    margin-right: 21px;
-    
-    margin-left: 1300px;
+    font-size: 25px;
+ 
 }
 
 .button, .button2{
@@ -21,6 +18,8 @@
     background-color:#A99DB7;
     height: 50px;
     display: flex;
+    justify-content: space-between; 
+
 }
 
 
@@ -38,15 +37,13 @@
     margin-top: 40px;
 }
 
-.main{
-    display: grid;
-    place-items: center;
-    align-items: center;
-}
+
 
 
 .title{
     font-size: 90px;
+    padding: 30px;
+    margin-bottom: 60px;
 }
 
 .recipe{
@@ -58,3 +55,51 @@
 .imageFridge{
     height: 250px;
 }
+
+a{
+    color: black;
+}
+
+.box{
+    justify-self: center;
+    margin-top: 15%;
+}
+
+
+
+.container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+body{
+    font-size: 20px;
+    background-color: rgb(255, 255, 255);
+}
+
+footer{
+    background-color: #A99DB7;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.stars{
+    height: 50px;
+}
+
+.starry{
+    display: flex;
+    justify-content: center;
+}
+
+
